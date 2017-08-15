@@ -6,6 +6,11 @@
       "type": "PlainTextMessageReceiver",
       "content": "Texto",
       "mediaType": "text/plain"
+    },
+    {
+      "type": "MediaLinkMessageReceiver",
+      "content": "Link de mídia",
+      "mediaType": "text/plain"
     }
   ],
   "settings": {
