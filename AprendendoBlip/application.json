@@ -16,6 +16,11 @@
       "type": "WebLinkMessageReceiver",
       "content": "Link Web",
       "mediaType": "text/plain"
+    },
+    {
+      "type": "SelectMessageReceiver",
+      "content": "Menu",
+      "mediaType": "text/plain"
     }
   ],
   "settings": {

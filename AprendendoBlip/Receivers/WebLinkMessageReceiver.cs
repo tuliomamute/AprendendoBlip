@@ -25,7 +25,6 @@ namespace AprendendoBlip
         {
             WebLink link = RetornaObjetoWebLink();
             await _sender.SendMessageAsync(link, message.From, cancellationToken);
-
         }
 
         private WebLink RetornaObjetoWebLink()
