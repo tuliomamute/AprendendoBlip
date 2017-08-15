@@ -30,7 +30,7 @@ namespace AprendendoBlip
 
         public MediaLink RetornaObjetoMediaLink()
         {
-            return new MediaLink() { Uri = new Uri(@"http://wallpaperswide.com/street_fighter_v_2015-wallpapers.html"), Title = "Imagem Street Fighter 5", Type = MediaType.ApplicationJson };
+            return new MediaLink() { Uri = new Uri(@"http://cdn.ndtv.com/tech/gadgets/street-fighter-v-ryu-artwork.jpg"), Title = "Imagem Street Fighter 5", Type = $"{MediaType.DiscreteTypes.Image}/{MediaType.SubTypes.JPeg}" };
         }
     }
 }
