@@ -11,6 +11,11 @@
       "type": "MediaLinkMessageReceiver",
       "content": "Link de mídia",
       "mediaType": "text/plain"
+    },
+    {
+      "type": "WebLinkMessageReceiver",
+      "content": "Link Web",
+      "mediaType": "text/plain"
     }
   ],
   "settings": {

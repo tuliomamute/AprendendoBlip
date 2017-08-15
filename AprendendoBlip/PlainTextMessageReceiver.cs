@@ -29,7 +29,10 @@ namespace AprendendoBlip
 
         private PlainText RetornaObjetoPlainText()
         {
-            return new PlainText() { Text = "Retornando um texto simples, utilizando a classe PlainText" };
+            return new PlainText()
+            {
+                Text = "Retornando um texto simples, utilizando a classe PlainText"
+            };
         }
     }
 }
