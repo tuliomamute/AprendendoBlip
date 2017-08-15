@@ -4,6 +4,7 @@
   "messageReceivers": [
     {
       "type": "PlainTextMessageReceiver",
+      "content": "Texto",
       "mediaType": "text/plain"
     }
   ],

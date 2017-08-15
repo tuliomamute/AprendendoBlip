@@ -6,6 +6,7 @@ using Takenet.MessagingHub.Client;
 using Takenet.MessagingHub.Client.Listener;
 using Takenet.MessagingHub.Client.Sender;
 using System.Diagnostics;
+using Lime.Messaging.Contents;
 
 namespace AprendendoBlip
 {
@@ -20,8 +21,15 @@ namespace AprendendoBlip
 
         public async Task ReceiveAsync(Message message, CancellationToken cancellationToken)
         {
+            PlainText texto = RetornaObjetoPlainText();
+
             Trace.TraceInformation($"From: {message.From} \tContent: {message.Content}");
-            await _sender.SendMessageAsync("Pong!", message.From, cancellationToken);
+            await _sender.SendMessageAsync(texto, message.From, cancellationToken);
+        }
+
+        private PlainText RetornaObjetoPlainText()
+        {
+            return new PlainText() { Text = "Retornando um texto simples, utilizando a classe PlainText" };
         }
     }
 }
