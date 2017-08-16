@@ -36,7 +36,11 @@
       "type": "LocationMessageReceiver",
       "content": "Localização",
       "mediaType": "text/plain"
-
+    },
+    {
+      "type": "UserInputMessageReceiver",
+      "content": "Input",
+      "mediaType": "text/plain"
     }
   ],
   "settings": {
