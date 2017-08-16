@@ -29,11 +29,18 @@ namespace AprendendoBlip
 
         private Select RetornaObjetoSelect()
         {
-            SelectOption[] options = new SelectOption[3];
+            SelectOption[] options = new SelectOption[10];
 
             options[0] = RetornaObjetoSelectOption(1, "Opção 1");
             options[1] = RetornaObjetoSelectOption(2, "Opção 2");
             options[2] = RetornaObjetoSelectOption(3, "Opção 3");
+            options[3] = RetornaObjetoSelectOption(4, "Opção 4");
+            options[4] = RetornaObjetoSelectOption(5, "Opção 5");
+            options[5] = RetornaObjetoSelectOption(6, "Opção 6");
+            options[6] = RetornaObjetoSelectOption(7, "Opção 7");
+            options[7] = RetornaObjetoSelectOption(8, "Opção 8");
+            options[8] = RetornaObjetoSelectOption(9, "Opção 9");
+            options[9] = RetornaObjetoSelectOption(10, "Opção 10");
 
             //A opção de Scope que define como será apresentado as opções
             return new Select()

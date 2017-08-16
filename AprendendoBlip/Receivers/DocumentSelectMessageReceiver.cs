@@ -10,7 +10,7 @@ using Takenet.MessagingHub.Client.Sender;
 using Takenet.MessagingHub.Client;
 using Lime.Messaging.Contents;
 
-namespace AprendendoBlip.Receivers
+namespace AprendendoBlip
 {
     public class DocumentSelectMessageReceiver : IMessageReceiver
     {

@@ -19,11 +19,11 @@
     },
     {
       "type": "SelectMessageReceiver",
-      "content": "Menu",
+      "content": "Menu Scope",
       "mediaType": "text/plain"
     },
     {
-      "type": "DocumentCollectionMessageReceiver",
+      "type": "DocumentSelectMessageReceiver",
       "content": "Menu multimídia",
       "mediaType": "text/plain"
     }
