@@ -21,6 +21,11 @@
       "type": "SelectMessageReceiver",
       "content": "Menu",
       "mediaType": "text/plain"
+    },
+    {
+      "type": "DocumentCollectionMessageReceiver",
+      "content": "Menu multimídia",
+      "mediaType": "text/plain"
     }
   ],
   "settings": {
