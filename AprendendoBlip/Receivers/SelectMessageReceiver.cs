@@ -35,8 +35,10 @@ namespace AprendendoBlip
             options[1] = RetornaObjetoSelectOption(2, "Opção 2");
             options[2] = RetornaObjetoSelectOption(3, "Opção 3");
 
+            //A opção de Scope que define como será apresentado as opções
             return new Select()
             {
+                Scope = SelectScope.Immediate,
                 Text = "Escolha uma das opções abaixo",
                 Options = options
             };
