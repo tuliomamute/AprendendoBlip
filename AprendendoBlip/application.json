@@ -26,6 +26,17 @@
       "type": "DocumentSelectMessageReceiver",
       "content": "Menu multimídia",
       "mediaType": "text/plain"
+    },
+    {
+      "type": "DocumentListMessageReceiver",
+      "content": "Lista",
+      "mediaType": "text/plain"
+    },
+    {
+      "type": "LocationMessageReceiver",
+      "content": "Localização",
+      "mediaType": "text/plain"
+
     }
   ],
   "settings": {

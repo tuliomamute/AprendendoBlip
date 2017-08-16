@@ -86,7 +86,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Receivers\DocumentListMessageReceiver.cs" />
     <Compile Include="Receivers\DocumentSelectMessageReceiver.cs" />
+    <Compile Include="Receivers\LocationMessageReceiver.cs" />
     <Compile Include="Receivers\MediaLinkMessageReceiver.cs" />
     <Compile Include="Receivers\PlainTextMessageReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
