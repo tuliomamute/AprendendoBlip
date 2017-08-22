@@ -41,6 +41,10 @@
       "type": "UserInputMessageReceiver",
       "content": "Input",
       "mediaType": "text/plain"
+    },
+    {
+      "type": "ArtificialIntelligenceReceiver",
+      "mediaType": "text/plain"
     }
   ],
   "settings": {
